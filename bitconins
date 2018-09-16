@@ -1,0 +1,252 @@
+block chain::
+each block has its own hash for identifying blocks of data.
+
+from
+to
+amount
+
+mining for adding new blocks.
+
+multiple machine ::nodes
+
+
+python list::
+['value1','value2'];
+
+
+blockchain theory::
+
+the chain::
+block contain previous block info +new value
+
+
+kwargs (key word arguments)
+
+def greet (name,age):
+ print();
+
+greet(age="15",name="abc");
+
+for input ::
+txamt=float(input("plz enter nos"));
+
+global key word for variable scope
+
+================================================
+comments::
+# syntex comments
+""" """ documents comments
+
+
+verifing block chains::
+check current hash and stored hash in block for checking
+verfications;
+================================================
+more complex data structures::
+tuple ,sets & dictonaries
+
+A transaction::
+sender
+recipient
+amout
+
+
+A Block::::
+Hash
+Index
+Transactions
+
+================================================================================================
+iteratable overviews::
+List===>['milk','honey','curd'];  mutalble,orderlist,duplicate allowed,one type of data allowed
+Set==>{'mild','data'}  mutalble,unorder,no duplicate
+Tuples==>('milk','honey') immutalble,order allowed,mixed types
+dictonary==>{'name':'milk','n':'abc'} mutable,unordered,no duplicate keys,often mixed types
+================================================================================================
+
+transactions:dictonaries
+
+pass keyword ::don't do anything::
+
+
+List comprehension::
+doublelist=[1,2,3,4];
+triplelist=[];
+
+print(triplelist);
+
+triplelist=[];
+triplelist= [el*2 for el in doublelist if el%2==0];
+
+dictonary comprehension::
+tuples conversion to dictonary::
+tupledata=[(1,2),(21,2),(3,2)];
+
+dict_data= {key: value for (key,value) in tupledata};
+print(dict_data);
+
+
+
+by refrence vs by values::
+
+mylist=[]
+duplist=mylist[:]   (getting new duplicate list)
+
+range selector::
+duplist=mylist[index_begin:index_end]
+duplist=mylist[:-1] -1 for end of list
+
+shallow vs deep copies::
+stats=[{'one':'value'},{'two':'value'}]
+copied_stats=stats[:]
+copied_stats[0]['one']='abc'
+
+values are::
+[{'one':'abc'},{'two':'value'}]
+
+one=[];
+two=[];
+one == two  (true)
+one is two  (false) because both having not same object
+
+all(),any() methods
+
+
+strings:::
+format method
+
+'i am {} age {}'.format(name,age)
+
+
+functions::
+map
+
+example:
+list(map(doublefunrf,simplelists));
+
+
+def doublefunrf(el):
+return el*2;
+
+	
+Lambda function::
+list(map(lambda el: el*2,simplelists));
+
+reduceing list::
+
+
+def fun(*arg,**kwarg):
+
+arg for list of data for second kwarg for dictonary
+
+
+=======================================================================================
+standard libraries:::
+
+import package   (importing simple function)
+import package as p  (alias package to p)
+from package import p   (import single function from whole file)
+
+import hashlib (library)
+
+
+
+Proof of work::
+
+Nonce ==numberd used once
+
+class OrderedDict(dict):
+    'Dictionary that remembers insertion order'
+
+
+file read write opration:::
+
+file.readline()
+
+pickle ::
+storing data into binary form into files..
+
+f= open('file',mode='r')
+
+with open('file',mode='r') as f
+automatic close file 
+=================================================================
+error handling::
+
+
+Classes object (OOPS concepts):::
+
+
+private variable inside class
+__varname (by convention)
+
+
+class constructor 
+def __init__(self):
+
+
+def __repr__(self): (dondre function  )
+   return str(self.__dict__);
+
+
+decorator::
+@annotation concept comes from decorater in python 
+
+
+documment comments::
+""" """
+python controlling
+nothing private in python
+_ single underscore  not import it (when using *)
+__all__ to control export (when using *)
+
+
+variables used::
+__all__=['function name'];
+__name__   like print(__name__);
+
+
+if __name__=='__main__':
+	dosomething();
+
+
+
+anaconda package manager for installing third party software::
+pip  offical package manage for python
+============================================================================
+handling http::
+
+
+post==>add data
+get==>retreve data
+delete==>remove data
+patch==>updata data
+put==>replace data
+
+flask third party library framework
+flask for http
+flask_corse
+jsonify
+requests
+load html data
+vue.js for designing purpose
+
+
+================================================================
+Add peer modules
+
+node management 
+resolve conflict on nodes longest win ever replace short node hash
+
+
+PEP 8 guide for python coding::
+
+==================================================================
+add desktop interface
+PyQT
+web dev flask and django
+build some utillity and terminal driven programme
+data science with python jupitor notebook
+
+advance features like multithreading ,async programming 
+
